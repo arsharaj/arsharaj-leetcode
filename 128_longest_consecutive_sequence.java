@@ -1,3 +1,5 @@
+// @lc app=leetcode id=128 lang=java
+
 import java.util.HashMap;
 import java.util.stream.IntStream;
 
@@ -38,6 +40,7 @@ class UnionFind {
         return IntStream.of(size).max().orElse(0);
     }
 }
+
 class Solution {
     public int longestConsecutive(int[] nums) {
         UnionFind uf = new UnionFind(nums.length);
