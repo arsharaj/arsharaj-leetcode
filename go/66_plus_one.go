@@ -1,3 +1,5 @@
+package main
+
 func plusOne(digits []int) []int {
 	n := len(digits) - 1
 
